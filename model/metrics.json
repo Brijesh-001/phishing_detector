@@ -1,0 +1,94 @@
+{
+  "model_type": "random_forest",
+  "accuracy": 0.944,
+  "precision": 0.9784,
+  "recall": 0.908,
+  "f1_score": 0.9419,
+  "roc_auc": 0.9764,
+  "confusion_matrix": [
+    [
+      490,
+      10
+    ],
+    [
+      46,
+      454
+    ]
+  ],
+  "n_train": 4000,
+  "n_test": 1000,
+  "feature_importances": [
+    {
+      "feature": "num_dots",
+      "importance": 0.1576
+    },
+    {
+      "feature": "num_subdomains",
+      "importance": 0.1508
+    },
+    {
+      "feature": "has_shortener",
+      "importance": 0.1075
+    },
+    {
+      "feature": "url_length",
+      "importance": 0.1045
+    },
+    {
+      "feature": "has_suspicious_word",
+      "importance": 0.1035
+    },
+    {
+      "feature": "domain_length",
+      "importance": 0.0877
+    },
+    {
+      "feature": "has_suspicious_tld",
+      "importance": 0.076
+    },
+    {
+      "feature": "has_double_slash_redirect",
+      "importance": 0.0435
+    },
+    {
+      "feature": "digit_letter_ratio",
+      "importance": 0.0321
+    },
+    {
+      "feature": "path_length",
+      "importance": 0.0302
+    },
+    {
+      "feature": "num_digits",
+      "importance": 0.0258
+    },
+    {
+      "feature": "has_https",
+      "importance": 0.0225
+    },
+    {
+      "feature": "num_query_params",
+      "importance": 0.0204
+    },
+    {
+      "feature": "has_ip",
+      "importance": 0.0163
+    },
+    {
+      "feature": "has_at_symbol",
+      "importance": 0.013
+    },
+    {
+      "feature": "num_hyphens",
+      "importance": 0.0084
+    },
+    {
+      "feature": "num_underscores",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_port",
+      "importance": 0.0
+    }
+  ]
+}
